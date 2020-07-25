@@ -358,6 +358,39 @@ void drawShapes(void)
     }
 
 
+    ///***********         Random Design              *******************///
+
+
+    x=0,y=450;
+    glBegin(GL_TRIANGLES);
+        glVertex2f(x,y);
+        glVertex2f(x+100,y);
+        glVertex2f(x,y-150);
+    glEnd();
+
+    x+=105;
+    glBegin(GL_LINES);
+        while(x <= 345){
+            if(int(x)%10){
+                glVertex2f(x,y);
+                glVertex2f(x,y-100);
+            }
+            else {
+                glVertex2f(x,y);
+                glVertex2f(x,y-125);
+            }
+            x+=15;
+        }
+    glEnd();
+
+    x=450,y=450;
+    glBegin(GL_TRIANGLES);
+        glVertex2f(x,y);
+        glVertex2f(x-100,y);
+        glVertex2f(x,y-150);
+    glEnd();
+
+
 
     glFlush();
 
