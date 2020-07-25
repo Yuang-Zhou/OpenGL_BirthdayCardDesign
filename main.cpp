@@ -19,7 +19,7 @@ void init(void)
 
 
 
-void drawShapes(void)
+void ZakariaHossainFoysal(void)
 {
     glClear(GL_COLOR_BUFFER_BIT);
 
@@ -409,7 +409,7 @@ int main(int argc, char* argv[])
     glutCreateWindow("171-15-9556");	// Create display window
 
     init();							// Execute initialisation procedure
-    glutDisplayFunc(drawShapes);	// Send graphics to display window
+    glutDisplayFunc(ZakariaHossainFoysal);	// Send graphics to display window
     glutMainLoop();					// Display everything and wait
 
     return 0;

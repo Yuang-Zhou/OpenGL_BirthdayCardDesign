@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1595575233 source:d:\code\cpp\opengl\lavevo\main.cpp
+1595639600 source:d:\code\cpp\opengl\lavevo\main.cpp
 	<windows.h>
 	<GL/glut.h>
 
